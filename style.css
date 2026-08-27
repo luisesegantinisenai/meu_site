@@ -119,3 +119,132 @@ body{
 .botao-comprar:hover{
     background-color: #41001e;
 }
+
+.area-inscricao{
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;/*Alinha o topo de todas as colunas*/
+}
+
+.coluna-form{
+    flex: 1;/*Faz o formulario crescer proporcionalmente*/
+    min-width: 320px;
+    background-color: #6e0134;
+    padding: 30px;
+    border-radius: 10px;/**/
+    box-shadow: 0 4px 12px #f5b6d4;
+}
+
+.coluna-midia{
+    flex: 1;
+    min-width: 320px;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.coluna-form label{
+    font-size: 14px;
+    font-weight: bold;
+    color: #f1f1f1;
+}
+
+.coluna-form input[type="text"],
+.coluna-form input[type="password"],
+.coluna-form input[type="email"],
+.coluna-form input[type="date"],
+.coluna-form select{
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    background-color: #fa0075;
+    border-radius: 5px;
+    color: #000000;
+    font-size: 14px;
+}
+
+.btn-enviar{
+    background-color: #fa0075;
+    color: #000000;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;/*Transforma a seta do mouse em uma maozinha*/
+}
+
+.btn-limpar{
+    background-color: #fa0075;
+    color: #000000;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;/*Transforma a seta do mouse em uma maozinha*/
+    margin-left: 10px;
+}
+
+.btn-enviar:hover{
+    background-color: #41001e;
+}
+
+.btn-limpar:hover{
+    background-color: #41001e;
+}
+
+.table{
+    background-color: #6e0134;
+    margin: 12px;
+    border-radius: 10px;
+    overflow: hidden;
+    display: grid;
+    max-width: 400px;
+}
+
+.Filmes{
+    flex: 1;/*Faz o formulario crescer proporcionalmente*/
+    min-width: 400px;
+    background-color: #6e0134;
+    padding: 30px;
+    border-radius: 10px;/**/
+    box-shadow: 0 4px 12px #f5b6d4;
+
+}
+
+.filme_homem_aranha{
+    flex: 1;/*Faz o formulario crescer proporcionalmente*/
+    min-width: 400px;
+    background-color: #6e0134;
+    padding: 30px;
+    border-radius: 10px;/**/
+    box-shadow: 0 4px 12px #f5b6d4;
+
+}
+
+.filme_odisseia{
+    flex: 1;/*Faz o formulario crescer proporcionalmente*/
+    min-width: 400px;
+    background-color: #6e0134;
+    padding: 30px;
+    border-radius: 10px;/**/
+    box-shadow: 0 4px 12px #f5b6d4;
+}
+
+.filme_toy_story{
+    flex: 1;/*Faz o formulario crescer proporcionalmente*/
+    min-width: 400px;
+    background-color: #6e0134;
+    padding: 30px;
+    border-radius: 10px;/**/
+    box-shadow: 0 4px 12px #f5b6d4;
+}
+
+.filme_michael{
+    flex: 1;/*Faz o formulario crescer proporcionalmente*/
+    min-width: 400px;
+    background-color: #6e0134;
+    padding: 30px;
+    border-radius: 10px;/**/
+    box-shadow: 0 4px 12px #f5b6d4;
+}
